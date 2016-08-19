@@ -47,21 +47,20 @@
 		<!-- MAIN MENU -->
 		<div class="main-menu" id="main-menu">
 			<ul class="main-menu-list">
-				<li><a href="#page-resume" class="link-home">Home</a></li>
-				<li><a href="#page-resume" class="link-page">Resume</a></li>
-				<li><a href="#page-skills" class="link-page">Skills</a></li>
-				<li><a href="#page-portfolio" class="link-page">Portfolio</a></li>
-				<li><a href="Contact/contact.html" class="link-page">Blog</a></li>
-				<li><a href="#page-contact" class="link-page">Contact</a></li>
+				<li><a href="#page-home" class="link-home btn-default">Home</a></li>
+				<li><a href="#page-resume" class="link-page btn-default">Resume</a></li>
+				<li><a href="#page-skills" class="link-page btn-default">Skills</a></li>
+				<li><a href="#page-portfolio" class="link-page btn-default">Portfolio</a></li>
+				<!-- <li><a href="Contact/contact.html" class="link-page btn-default">Blog</a></li> -->
+				<li><a href="#page-contact" class="link-page btn-default">Contact</a></li>
 			</ul>
 		</div>
 		<!-- /MAIN MENU -->
 		
 		<!-- SECTION: vCard Body  -->	
-		<div class="section-vcardbody section-home" id="section-home">
+		<div class="section-vcardbody section-home" id="page-home">
 			<!-- Profile pic-->
 			<div class="vcard-profile-pic">
-				<img src="images/free-60-icons-49.png" id="profile2"  alt=""/>
 				<img src="images/free-60-icons-60.png" id="profile1" class="profileActive" alt=""/>
 			</div>
 			<!-- /Profile pic -->
@@ -103,13 +102,6 @@
 	            <h2 class="section-title">Resume</h2>
 	            <!-- /Section title -->
 
-	            <!-- Buttons -->
-	            <div class="resume-buttons header-page-buttons">
-
-					<a href="app/Resume/resume.html" class="btn btn-default btn-default2">My resume</a>
-
-	            </div>
-	            <!-- /Buttons -->
 
 				<h2 class="section-title2"><i class="fa fa-university"></i>&nbsp; Education</h2>
 
@@ -127,6 +119,7 @@
                   	  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   	</div>
                   	<!-- /Content -->
+
 				</div>
 	            <!-- /Resume Item -->
 
@@ -158,6 +151,10 @@
 
 			</div>
 			<!--/ SECTION: WORK EXPERIENCE -->
+
+			<div class="home-buttons header-page-buttons">
+				<a href="#page-home" class="link-home  btn btn-default btn-default2">Home</a>
+			</div>
 
 
 
@@ -300,7 +297,10 @@
                   </ul>
 				<!-- /Skils List -->
 				 
-			</div>			
+			</div>
+			<div class="home-buttons header-page-buttons">
+				<a href="#page-home" class="link-home  btn btn-default btn-default2">Home</a>
+			</div>
 		</div>
 		<!-- /SECTION: SKILLS  -->	
 
@@ -339,9 +339,12 @@
 
 					
 				</div>
-				<!-- /projects list -->	
+				<!-- /projects list -->
 
-			</div>			
+			</div>
+			<div class="home-buttons header-page-buttons">
+				<a href="#page-home" class="link-home  btn btn-default btn-default2">Home</a>
+			</div>
 		</div>
 
 				
@@ -350,7 +353,7 @@
 
 		<!-- SECTION: CONTACT-->
 		<div class="section-vcardbody section-page" id="page-contact">
-			<div class="section-contact">
+			<div id="contat_container" class="section-contact">
 
 				<!-- Section title -->
 				<h2 class="section-title">Contact</h2>
@@ -367,8 +370,9 @@
 				</div>
 				<!-- /Contact infos -->
 
-
-
+			</div>
+			<div class="home-buttons header-page-buttons">
+				<a href="#page-home" class="link-home  btn btn-default btn-default2">Home</a>
 			</div>
 		</div>
 		<!-- /SECTION: CONTACT  -->

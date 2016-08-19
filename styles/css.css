@@ -272,7 +272,7 @@ iframe {
     width: 15%;
     position: absolute;
     top: 0;
-    left: 15%;
+    left: 8%;
     padding-right: 10px;
     margin-top: 36px;
     -webkit-transition: all 0.6s ease-in-out;
@@ -280,6 +280,23 @@ iframe {
     transition: all 0.6s ease-in-out;
     display: block;
 }
+
+
+@media  (max-width:500px){
+    .main-menu {
+        margin-top: 45%;
+        width: 80%;
+    }
+
+    .main-menu-list li {
+        float:left;
+
+    }
+    
+}
+
+
+
 
 .main-menu-pgactive {
     left: 0%;
@@ -293,21 +310,28 @@ iframe {
     margin: 0;
     margin-bottom: 5px;
     list-style: none;
+
 }
 .main-menu-list a {
     display: block;
-    background: #08aeac;
+    background:#41ae47;
     padding: 10px;
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 8px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     position: relative;
-    overflow: hidden;
     z-index: 1;
 }
+@media (min-width:992px) {
+    .main-menu-list a {
+        font-size: 12px;
+    }
+}
+
+
 .main-menu-list a:active,
 .main-menu-list a:visited {
     text-decoration: none;
@@ -351,7 +375,7 @@ iframe {
 .vcard-profile-pic {
     width: 200px;
     height: 200px;
-    overflow: hidden;
+
     margin: 0 auto;
     margin-bottom: 20px;
     position: relative;
@@ -370,6 +394,21 @@ iframe {
     left: 0;
     opacity: 0;
 }
+
+@media  (max-width:500px){
+    .vcard-profile-pic img{
+        width: 60%;
+        height: auto;
+    }
+    #profile1{
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+}
+
+
+
+
 .profileActive {
     opacity: 1!important;
 }
@@ -499,8 +538,9 @@ iframe {
 .section-education {
     margin-bottom: 40px;
 }
-.resume-buttons {
+.home-buttons {
     margin-bottom: 30px;
+    text-align: center;
 }
 .header-page-buttons {
     margin-top: -20px;
@@ -826,12 +866,15 @@ span.see-more {
     line-height: 16px;
 }
 
+#contat_container{
+    margin-bottom: 20%;
+
+}
+
 /* ==========================================================
 ! 18. CROSSBROWSER FALLBACKS
 ========================================================== */
 .safari .vcard-profile-pic img {
     border: 0px solid #ddd;
 }
-.safari .testimonial-picture img {
-    border: 0px solid #ddd;
-}
+
