@@ -3,7 +3,7 @@
 ! 01. MIXINS / VARIABLES
 ==============	=========================================== */
 .color1 {
-    color: #0bae4d;
+    color: #1cae65;
 }
 .color2 {
     color: #021533;
@@ -117,7 +117,7 @@ a:focus {
     text-transform: uppercase;
 }
 .btn-default3:hover {
-    background: #41ae47;
+    background:  #1cae65;
     color: #ffffff;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -292,7 +292,7 @@ iframe {
         float:left;
 
     }
-    
+
 }
 
 
@@ -314,7 +314,7 @@ iframe {
 }
 .main-menu-list a {
     display: block;
-    background:#41ae47;
+    background: #1cae65;
     padding: 10px;
     color: #ffffff;
     text-transform: uppercase;
@@ -453,7 +453,7 @@ iframe {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     padding: 10px;
-    background: url('../images/free-60-icons-48.png') no-repeat center center #1cae65;
+    background: url('../images/free-60-icons-48.png') no-repeat center center  #1cae65;
 }
 .vcard-profile-description-ft-item p {
     margin-bottom: 0;
@@ -719,7 +719,7 @@ iframe {
     right: 0px;
     font-weight: 800;
     padding: 3px 10px 2px;
-    color: #888;
+    color: #313131;
     font-size: 14px;
 }
 .skills-list {
@@ -731,7 +731,7 @@ iframe {
     width: 20%;
 }
 .progress-bar-2 {
-    background: #021533;
+    background: #4875b0;
 }
 .progress-bar-3 {
     background: #d9212a;
