@@ -388,18 +388,34 @@ iframe {
     top: 0;
     left: 0;
     opacity: 0;
+
 }
 
 @media  (max-width:500px){
     .vcard-profile-pic img{
         width: 60%;
         height: auto;
+
     }
     #profile1{
         margin-top: 10%;
         margin-left: 20%;
     }
 }
+
+@media (max-width: 1676px)  {
+    .vcard-profile-pic img{
+        width: 80%;
+        height: auto;
+
+    }
+    #profile1{
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+
+}
+
 
 
 
