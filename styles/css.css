@@ -876,6 +876,14 @@ span.see-more {
 /*============================================================
 vino
 ================================================================*/
+.vino-images p {
+    font-size: 13px;
+    line-height: 16px;
+}
+#vino_container{
+    margin-bottom: 20%;
+
+}
 div.img {
     border: 1px solid #ccc;
 }
@@ -904,10 +912,11 @@ div.desc {
     width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1676px){
     .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
+        width: 50%;
+        margin-bottom: 10%;
+
     }
 }
 
@@ -921,4 +930,8 @@ div.desc {
     content: "";
     display: table;
     clear: both;
+}
+
+.space{
+    margin-bottom: 30%;
 }
