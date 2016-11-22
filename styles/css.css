@@ -57,13 +57,14 @@ a:focus {
     font-weight: bold;
     color: #ffffff;
     background: #1cae65;
-    border-radius: 0;
+    border-radius: 5px;
     font-size: 12px;
     padding: 10px 20px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     margin-bottom: 2px;
+
 }
 .btn:hover {
     background: #000000;
@@ -78,7 +79,7 @@ a:focus {
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
-    border-radius: 0;
+    border-radius: 5px;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     -webkit-transition: all 0.3s ease-in-out;
@@ -105,48 +106,22 @@ a:focus {
 .btn-default:hover {
     color: #ffffff;
     border: 0px solid transparent!important;
+    border-radius: 5px;
 }
 .btn-default:hover:before {
     width: 100%;
+    border-radius: 5px;
 }
-.btn-default3 {
-    background: #d9212a;
-    color: #ffffff;
-    border: 0;
-    text-transform: uppercase;
-}
-.btn-default3:hover {
-    background:  #1cae65;
-    color: #ffffff;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
+
+
 .btn-default2 {
     font-size: 9px;
-    background: #021533;
+    background: #000000;
     font-weight: lighter;
+    border-radius: 5px;
 }
-.btn-nobg {
-    background-color: transparent;
-    border: 1px solid #021533;
-    border-radius: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    font-size: 18px;
-    height: 46px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: #021533;
-}
-.btn-nobg:hover {
-    background: #021533;
-    color: #ffffff;
-}
+
+
 iframe {
     width: 100%;
 }
@@ -275,6 +250,7 @@ iframe {
     transition: all 0.6s ease-in-out;
     display: block;
 
+
 }
 
 
@@ -320,6 +296,9 @@ iframe {
     transition: all 0.3s ease-in-out;
     position: relative;
     z-index: 1;
+    border-radius: 5px;
+
+
 }
 @media (min-width:992px) {
     .main-menu-list a {
@@ -343,7 +322,8 @@ iframe {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background: #021533;
+    background: #000000;
+    border-radius: 5px;
     z-index: -1;
 }
 .main-menu-list a:hover {
@@ -357,7 +337,7 @@ iframe {
 }
 .main-menu-list a.menuActive {
     text-decoration: none;
-    background: #021533;
+    background: #000000;
     padding-left: 15px;
 }
 /* ==========================================================
@@ -401,8 +381,10 @@ iframe {
         margin-top: 10%;
         margin-left: 20%;
     }
+
 }
 
+/*smartphone*/
 @media (max-width: 1676px)  {
     .vcard-profile-pic img{
         width: 80%;
@@ -410,14 +392,18 @@ iframe {
 
     }
     #profile1{
-        margin-top: 10%;
-        margin-left: 20%;
-    }
+        margin-top: 25%;
+                   }
+   h1.profile-title{
+       margin-top: 10%;
+   }
+
 
 }
 
-
-
+h1.profile-title{
+    margin-top: 10%;
+}
 
 
 .profileActive {
@@ -546,9 +532,11 @@ iframe {
 .home-buttons {
     margin-bottom: 30px;
     text-align: center;
+
 }
 .header-page-buttons {
     margin-top: -20px;
+
 }
 .page-footer {
     border-top: 1px solid #ccc;
@@ -589,116 +577,7 @@ iframe {
     cursor: -webkit-grab;
     cursor: -moz-grab;
 }
-/*============================================================================
-  >>  11. Owl Carousel
-  ============================================================================
-*/
-.owl-carousel .owl-item {
-    cursor: -webkit-grab;
-}
-.owl-carousel .owl-item:focus {
-    cursor: -webkit-grabbing;
-    cursor: -moz-grabbing;
-}
-.owl-carousel .owl-item:active {
-    cursor: -webkit-grabbing;
-    cursor: -moz-grabbing;
-}
-.owl-carousel .owl-item img {
-    width: 100%;
-}
-.grabbing {
-    cursor: -webkit-grabbing !important;
-    cursor: -moz-grabbing !important;
-}
-.owl-controls-wrapper2:hover .owl-controls {
-    opacity: 1;
-}
-.owl-controls-wrapper2 .owl-controls {
-    opacity: 0.4;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    width: 100%;
-    position: absolute;
-    top: auto;
-    bottom: 0;
-    left: 0;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background: rgba(0, 0, 0, 0.4);
-    color: #ffffff !important;
-    border-radius: 0 0 20px 20px;
-    -moz-border-radius: 0 0 20px 20px;
-    -webkit-border-radius: 0 0 20px 20px;
-}
-.owl-controls-wrapper2 .owl-controls a {
-    color: #ffffff !important;
-}
-.owl-controls-wrapper2 .owl-controls .owl-page {
-    background-color: #ffffff;
-}
-.owl-controls-wrapper2 .owl-controls .owl-page.active {
-    background: #021533;
-}
-.owl-controls-wrapper2 .owl-pagination,
-.owl-controls-wrapper2 .owl-buttons {
-    width: 50%;
-    float: left;
-}
-.owl-controls-wrapper2 .owl-buttons {
-    text-align: right;
-}
-.owl-controls-wrapper2 .owl-buttons > div {
-    display: inline-block;
-    margin-left: 5px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    font-size: 14px;
-}
-.owl-controls-wrapper2 .owl-buttons > div:hover {
-    color: #021533;
-}
-.owl-controls-wrapper2 .owl-mtop .owl-wrapper-outer {
-    padding-top: 40px;
-}
-.owl-controls-wrapper2 .owl-wrapper-outer {
-    position: relative;
-}
-.owl-controls-wrapper2 .owl-controls {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.owl-controls-wrapper2 .owl-controls .owl-page {
-    cursor: pointer;
-    width: 8px;
-    height: 8px;
-    border-radius: 100%;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    margin-right: 3px;
-    display: inline-block;
-    background: #333;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-.owl-controls-wrapper2 .owl-controls .owl-page:hover {
-    opacity: 0.8;
-}
-.owl-controls-wrapper2 .owl-controls .owl-page.active {
-    background: #021533;
-}
-.owl-pagination .owl-page span {
-    background: #021533;
-}
-.owl-pagination .active span {
-    background: #021533 !important;
-}
+
 /* ==========================================================
 ! 12. SECTION: SKILLS
 ========================================================== */
