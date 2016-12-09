@@ -620,6 +620,19 @@ h1.profile-title{
 .progress-bar-3 {
     background: #d9212a;
 }
+.progress-bar-4 {
+    background: #df9133;
+
+}
+.progress > .progress-type-1 {
+    position: absolute;
+    left: 0%;
+
+    font-size: 13px;
+    padding: 3px 30px 2px 10px;
+    color: #ffffff;
+
+}
 /* ==========================================================
 ! 13. SECTION: Portfolio
 ========================================================== */
