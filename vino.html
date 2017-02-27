@@ -27,6 +27,12 @@
     <link href="lib/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
     <link href="lib/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 
     <!-- owl carousel -->
     <link href="lib/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
@@ -47,104 +53,246 @@
 
                     <!-- Projects list -->
                     <div class="projects-list">
-                        <div class="project-item">
-                            <a  href="images/vino/CamicoFronte.jpg" class="project-thumbnail nivobox "  data-lightbox-gallery="portfolio" style="background-image: url('images/vino/CamicoFronte.jpg') ; background-size: contain; ">
-                                <div class="project-description-wrapper">
-                                    <div class="project-description">
-                                        <!-- project name -->
-                                        <h2 class="project-title">Front Bottle </h2>
+                        <div class="photo-item">
+                                <a class="photo-thumbnail nivobox"  data-lightbox-gallery="portfolio">
+                                    <div class="divmodalbutton1">
+                                        <button type="button" class="buttonmodal2 btn2 btn-info btn-lg project-title" data-toggle="modal" data-target="#myModal"
+                                                style="background-image: url('images/vino/CamicoFronte.jpg'); background-size: contain;">Open Photo</button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="myModal" role="dialog">
+                                            <div class="modal-dialog modal-lg">
+                                                <div class="modal-header">
+                                                    <h2 class="project-title">Front Bottle </h2>
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="divspazio" style="background-image: url('images/vino/CamicoFronte.jpg'); background-size: contain;">
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default btn-default2" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
+                                </a>
+                        </div>
+
+                        <div class="photo-item">
+                             <a class="photo-thumbnail nivobox"  data-lightbox-gallery="portfolio" >
+                                <div class="divmodalbutton1">
+                                    <button type="button" class="buttonmodal2 btn2 btn-info btn-lg project-title" style="background-image: url('images/vino/CamicoRetro.jpg'); background-size: contain;"
+                                            data-toggle="modal" data-target="#myModal1">Open Photo</button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal1" role="dialog">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-header">
+                                                <h2 class="project-title">Back Bottle </h2>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="divspazio" style="background-image: url('images/vino/CamicoRetro.jpg'); background-size: contain;">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default btn-default2" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </a>
                         </div>
-                        <div class="project-item">
-                            <a href="images/vino/CamicoRetro.jpg" class="project-thumbnail nivobox"  data-lightbox-gallery="portfolio" style="background-image: url('images/vino/CamicoRetro.jpg');  background-size: contain;">
-                                <div class="project-description-wrapper">
-                                    <div class="project-description">
-                                        <!-- project name -->
-                                        <h2 class="project-title">Back Bottle </h2>
+                        <div class="photo-item">
+                           <a class="photo-thumbnail nivobox"  data-lightbox-gallery="portfolio" >
+                            <div class="divmodalbutton1">
+                                <button type="button" class="buttonmodal2 btn2 btn-info btn-lg project-title" style="background-image: url('images/vino/FronteVSRetro.jpg'); background-size: contain;"
+                                        data-toggle="modal" data-target="#myModal3">Open Photo</button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal3" role="dialog">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-header"> <h2 class="project-title">Front VS Back Bottle </h2>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="divspazio" style="background-image: url('images/vino/FronteVSRetro.jpg'); background-size: contain;">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default btn-default2" data-dismiss="modal">Close</button>
+                                        </div>
                                     </div>
+                                </div>
+
+                            </div>
+                        </a>
+                        </div>
+                        <div class="photo-item">
+                          <a class="photo-thumbnail nivobox"  data-lightbox-gallery="portfolio" >
+                                <div class="divmodalbutton1">
+                                    <button type="button" class="buttonmodal2 btn2 btn-info btn-lg project-title" style="background-image: url('images/vino/etichettaFronte.png'); background-size: contain;"
+                                            data-toggle="modal" data-target="#myModal4">Open Photo</button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal4" role="dialog">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-header"><h2 class="project-title">Front Label</h2>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="divspazio" style="background-image: url('images/vino/etichettaFronte.png'); background-size: contain;">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default btn-default2" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </a>
                         </div>
-                        <div class="project-item">
-                            <a href="images/vino/FronteVSRetro.jpg" class="project-thumbnail nivobox"  data-lightbox-gallery="portfolio" style="background-image: url('images/vino/FronteVSRetro.jpg'); background-size: contain;">
-                                <div class="project-description-wrapper">
-                                    <div class="project-description">
-                                        <!-- project name -->
-                                        <h2 class="project-title">Front VS Back Bottle </h2>
+                        <div class="photo-item">
+                             <a class="photo-thumbnail nivobox"  data-lightbox-gallery="portfolio" >
+                                <div class="divmodalbutton1">
+                                    <button type="button" class="buttonmodal2 btn2 btn-info btn-lg project-title" style="background-image: url('images/vino/etichettaPosteriore.png'); background-size: contain;"
+                                            data-toggle="modal" data-target="#myModal5">Open Photo</button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal5" role="dialog">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="divspazio" style="background-image: url('images/vino/etichettaPosteriore.png'); background-size: contain;">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default btn-default2" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
                                     </div>
+
                                 </div>
                             </a>
                         </div>
-                        <div class="project-item">
-                            <a href="images/vino/etichettaFronte.png" class="project-thumbnail nivobox"  data-lightbox-gallery="portfolio" style="background-image: url('images/vino/etichettaFronte.png'); background-size: contain;">
-                                <div class="project-description-wrapper">
-                                    <div class="project-description">
-                                        <!-- project name -->
-                                        <h2 class="project-title">Front Label</h2>
+                        <div class="photo-item">
+                            <a class="photo-thumbnail nivobox"  data-lightbox-gallery="portfolio" >
+                                <div class="divmodalbutton1">
+                                    <button type="button" class="buttonmodal2 btn2 btn-info btn-lg project-title" style="background-image: url('images/vino/Etichetta.jpg'); background-size: contain;"
+                                            data-toggle="modal" data-target="#myModal6">Open Photo</button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal6" role="dialog">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="divspazio" style="background-image: url('images/vino/Etichetta.jpg'); background-size: contain;">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default btn-default2" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
                                     </div>
+
                                 </div>
                             </a>
                         </div>
-                        <div class="project-item">
-                            <a href="images/vino/etichettaPosteriore.png" class="project-thumbnail nivobox"  data-lightbox-gallery="portfolio" style="background-image: url('images/vino/etichettaPosteriore.png'); background-size: contain;">
-                                <div class="project-description-wrapper">
-                                    <div class="project-description">
-                                        <!-- project name -->
-                                        <h2 class="project-title">Back Label</h2>
+                        <div class="photo-item">
+                            <a class="photo-thumbnail nivobox"  data-lightbox-gallery="portfolio" >
+                                <div class="divmodalbutton1">
+                                    <button type="button" class="buttonmodal2 btn2 btn-info btn-lg project-title" style="background-image: url('images/vino/Etichettamisure.jpg'); background-size: contain;"
+                                            data-toggle="modal" data-target="#myModal10">Open Photo</button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal10" role="dialog">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-header"><h2 class="project-title">Label Detailed</h2>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="divspazio" style="background-image: url('images/vino/Etichettamisure.jpg'); background-size: contain;">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default btn-default2" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
                                     </div>
+
                                 </div>
                             </a>
                         </div>
-                        <div class="project-item">
-                            <a href="images/vino/Etichetta.jpg" class="project-thumbnail nivobox"  data-lightbox-gallery="portfolio" style="background-image: url('images/vino/Etichetta.jpg'); background-size: contain;">
-                                <div class="project-description-wrapper">
-                                    <div class="project-description">
-                                        <!-- project name -->
-                                        <h2 class="project-title">Label</h2>
+                        <div class="photo-item">
+                            <a class="photo-thumbnail nivobox"  data-lightbox-gallery="portfolio" >
+                                <div class="divmodalbutton1">
+                                    <button type="button" class="buttonmodal2 btn2 btn-info btn-lg project-title" style="background-image: url('images/vino/dettagli.jpg'); background-size: contain;"
+                                            data-toggle="modal" data-target="#myModal9">Open Photo</button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal9" role="dialog">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-header"> <h2 class="project-title">Camico's Wrapping</h2>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="divspazio" style="background-image: url('images/vino/dettagli.jpg'); background-size: contain;">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default btn-default2" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
                                     </div>
+
                                 </div>
                             </a>
                         </div>
-                        <div class="project-item">
-                            <a href="images/vino/Etichettamisure.jpg" class="project-thumbnail nivobox"  data-lightbox-gallery="portfolio" style="background-image: url('images/vino/Etichettamisure.jpg'); background-size: contain;">
-                                <div class="project-description-wrapper">
-                                    <div class="project-description">
-                                        <!-- project name -->
-                                        <h2 class="project-title">Label Detailed</h2>
+                        <div class="photo-item">
+                            <a class="photo-thumbnail nivobox"  data-lightbox-gallery="portfolio" >
+                                <div class="divmodalbutton1">
+                                    <button type="button" class="buttonmodal2 btn2 btn-info btn-lg project-title" style="background-image: url('images/vino/capsula.jpg'); background-size: contain;"
+                                            data-toggle="modal" data-target="#myModal8">Open Photo</button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal8" role="dialog">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-header"><h2 class="project-title">Camico's Features</h2>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="divspazio" style="background-image: url('images/vino/capsula.jpg'); background-size: contain;">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default btn-default2" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
                                     </div>
+
                                 </div>
                             </a>
                         </div>
-                        <div class="project-item">
-                            <a href="images/vino/dettagli.jpg" class="project-thumbnail nivobox"  data-lightbox-gallery="portfolio" style="background-image: url('images/vino/dettagli.jpg'); background-size: contain;">
-                                <div class="project-description-wrapper">
-                                    <div class="project-description">
-                                        <!-- project name -->
-                                        <h2 class="project-title">Camico's Wrapping</h2>
+                        <div class="photo-item">
+                            <a class="photo-thumbnail nivobox"  data-lightbox-gallery="portfolio" >
+                                <div class="divmodalbutton1">
+                                    <button type="button" class="buttonmodal2 btn2 btn-info btn-lg project-title" style="background-image: url('images/vino/package.jpg'); background-size: contain;"
+                                            data-toggle="modal" data-target="#myModal7">Open Photo</button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal7" role="dialog">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-header"><h2 class="project-title">Camico's Packaging</h2>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="divspazio" style="background-image: url('images/vino/package.jpg'); background-size: contain;">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default btn-default2" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="project-item">
-                            <a href="images/vino/capsula.jpg" class="project-thumbnail nivobox"  data-lightbox-gallery="portfolio" style="background-image: url('images/vino/capsula.jpg'); background-size: contain;">
-                                <div class="project-description-wrapper">
-                                    <div class="project-description">
-                                        <!-- project name -->
-                                        <h2 class="project-title">Camico's Features</h2>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="project-item">
-                            <a href="images/vino/package.jpg" class="project-thumbnail nivobox"  data-lightbox-gallery="portfolio" style="background-image: url('images/vino/package.jpg');
-                            background-size: contain;">
-                                <div class="project-description-wrapper">
-                                    <div class="project-description">
-                                        <!-- project name -->
-                                        <h2 class="project-title">Camico's Packaging</h2>
-                                    </div>
+
                                 </div>
                             </a>
                         </div>
