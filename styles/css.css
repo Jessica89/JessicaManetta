@@ -775,12 +775,39 @@ h1.profile-title{
     margin-bottom: 10px;
     position: relative;
 }
+.photo-list{
+     width: 900px;
+     overflow: hidden;
+    text-align: center;
+
+ }
+
+.project-list{
+    width: 900px;
+    overflow: hidden;
+
+}
+
+.photo-list .photo-item{
+     width:120px;
+     height:120px;
+     float: left;
+     margin:0 20px 20px 0;
+ }
+
+.project-list .project-item{
+    width:350px;
+    height:auto;
+    float:right;
+    margin:0 20px 20px 0;
+}
 
 .photo-item a {
     /*cursor: url('../img/projects2.cur'), projetos !important;*/
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
+    margin-right:0
 }
 .project-item {
     padding: 0;
@@ -850,12 +877,12 @@ h1.profile-title{
 .project-description {
     position: absolute;
     top: 50%;
-    margin-top: -55px;
+    margin-top: -45px;
     width: 100%;
 }
 .project-title {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 10px;
     transform: translateY(10px);
     -webkit-transform: translateY(10px);
     -moz-transform: translateY(10px);
@@ -882,8 +909,8 @@ h1.profile-title{
     width: 50%;
     margin: 0 auto;
     opacity: 0.5;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 .project-thumbnail {
     display: block;
@@ -920,8 +947,8 @@ h1.profile-title{
 }
 .index-description {
     position: absolute;
-    top: 50%;
-    margin-top: -55px;
+    top: 20%;
+    margin-top: 4px;
     width: 100%;
 }
 .index-title {
@@ -942,8 +969,7 @@ h1.profile-title{
     width: 50%;
     margin: 0 auto;
     opacity: 0.5;
-    margin-top: 0;
-    margin-bottom: 0;
+
 }
 .index-thumbnail {
         display: block;
@@ -955,7 +981,7 @@ h1.profile-title{
     background: rgb(190, 190, 190);
     background-repeat: no-repeat;
     background-position: center;
-    height: 80px;
+    height: 100px;
     width: auto;
     text-align: center;
     color: #000000;
@@ -997,7 +1023,7 @@ span.see-more {
     font-style: italic;
     text-transform: lowercase;
     letter-spacing: 3px;
-    font-size: 12px;
+    font-size: 10px;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
