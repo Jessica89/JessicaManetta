@@ -1059,6 +1059,22 @@ span.see-more {
     margin-bottom: 20%;
 
 }
+.contact-subtitle-2 {
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #ffffff;
+}
+.contact-subtitle-2  br{
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 16px;
+    padding-bottom: 5px;
+}
+
 
 /* ==========================================================
 ! 18. CROSSBROWSER FALLBACKS
