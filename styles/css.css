@@ -394,6 +394,7 @@ iframe {
         float:left;
 
     }
+
 }
 
 
@@ -503,7 +504,7 @@ iframe {
 
 }
 
-@media  (max-width:500px){
+@media (max-width:500px){
     .vcard-profile-pic img{
         width: 60%;
         height: auto;
@@ -514,7 +515,12 @@ iframe {
         margin-left: 20%;
     }
 
+    .project-list .project-item{
+        width:100%;
+    }
+
 }
+
 
 /*smartphone*/
 @media (max-width: 1676px)  {
@@ -529,7 +535,9 @@ iframe {
    h1.profile-title{
        margin-top: 10%;
    }
-
+    .project-list .project-item{
+        width:40%;
+    }
 
 }
 
@@ -776,14 +784,14 @@ h1.profile-title{
     position: relative;
 }
 .photo-list{
-     width: 900px;
+     width: 75%;
      overflow: hidden;
-    text-align: center;
+     text-align: center;
 
  }
 
 .project-list{
-    width: 900px;
+    width: 75%;
     overflow: hidden;
 
 }
@@ -796,9 +804,9 @@ h1.profile-title{
  }
 
 .project-list .project-item{
-    width:350px;
+    width:30%;
     height:auto;
-    float:right;
+    float:left;
     margin:0 20px 20px 0;
 }
 
